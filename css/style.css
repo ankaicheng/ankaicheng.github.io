@@ -1,0 +1,86 @@
+body{
+    background-image: url("../photo/bkg.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed; background-size: 100%;
+    }
+
+.nav a {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: normal;
+    color:white;
+    word-spacing: 5em;
+    }
+
+.pic {
+    background-color: red;
+    margin:auto;
+    margin-top: 15%;
+    height: 360px;
+    width: 1263px;
+    }
+
+.outnav{
+    position:fixed; top:6%;bottom:94%;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    }
+
+.nav{
+    margin:auto;
+    background-color:yellow;
+    width: 760px;
+    }
+
+.nav li{
+    margin-right: 2px;
+    display: block;
+    line-height: 50px;
+    width: 150px;
+    height:50px;
+    float:left;
+    background-color: black;
+    color:white;
+    text-align: center;
+
+    }
+
+.nav li:hover ul{
+    display: block;
+    line-height: 50px;
+    width: 150px;
+    height:50px;
+    background color:red;
+     }
+
+.nav li ul{
+    display: none;
+    line-height: 50px;
+    width: 150px;
+    height:50px;
+    background-color: red;
+    color:red
+    }
+
+#bottum {
+    height: 16%;
+    width: 100%;
+    position: absolute;
+    color: purple;
+    bottom: 0;
+    left: 0;
+    background-color: white;opacity: 1;
+    }
+
+#bottum a{
+    color:black;
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 3px;
+    margin:auto;
+    bottom:30px;
+    left: 30px;
+    }
